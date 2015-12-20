@@ -10,14 +10,14 @@
   <Extension id="ADXExtractor" type="contextExtractor">
     <Name>ADX Stuff</Name>
     <Url>google.com:EmailBodyExtractor</Url>
-    <Triggers ref="ADXGadget"/>
+    <Triggers ref="HelloWorlGadget"/>
     <Scope ref="emailBody"/>
     <Container name="mail"/>
   </Extension>
  
-  <Extension id="ADXGadget" type="gadget">
+  <Extension id="HelloWorldGadget" type="gadget">
     <Name>Add-in Express Gmail contextual gadget</Name>
-    <Url>http://www.coalitionsoft.net/context-gadget.xml</Url>
+    <Url>https://raw.githubusercontent.com/valgayres/gadget_poc/master/gadget.xml</Url>
     <Container name="mail"/>
   </Extension>
  

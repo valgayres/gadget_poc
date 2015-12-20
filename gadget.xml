@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-  <ModulePrefs title="Add-in Express Answers"
-    description="You ask, ADX answers!"
+  <ModulePrefs title="Hello world title"
+    description="Hello world description"
     height="20"
-    author="Add-in Express"
-    author_email="add-in-express.com"
-    author_location="Belarus">
+    author="Vincent Algayres"
+    author_email="valgayres"
+    author_location="Paris">
     <Require feature="dynamic-height"/>
  
     <Require feature="google.contentmatch">
